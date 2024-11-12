@@ -1,0 +1,47 @@
+/**** Reset ****/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+/**** Style général de la page ****/
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: Helvetica, sans-serif;
+    background-color: #f1f1f1;
+}
+
+.custom__menu {
+    width: 200px;
+    box-shadow: 0 5px 15px rgba(17, 17, 17, 0.549);
+    position: fixed;
+    display: none;
+}
+
+.custom__menu button {
+    width: 100%;
+    text-align: left;
+    background-color: #111111;
+    color: #e7e7e7;
+    font-size: 14px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.custom__menu button:hover {
+    background-color: #1d73cf;
+}
+
+p {
+    padding: 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
