@@ -2,7 +2,7 @@
 const customMenu = document.querySelector(".custom__menu");
 const customMenuBtns = [...document.querySelectorAll(".custom__menu button")];
 
-// Création de la constante backgroundsColors
+// Création de la constante backgroundsColors qui va stocker les couleurs dans un tableau
 const backgroundsColors = ["#ff9900", "#df2525", "#1c69d4", "#e235e2"];
 
 // Déclaration de la fonction toggleCustomMenu qui va permettre au menu d'apparaître et de disparaître
